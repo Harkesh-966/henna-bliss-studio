@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, WhatsApp } from 'lucide-react';
+import { Instagram, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -42,7 +42,7 @@ const Footer = () => {
               href="#" 
               className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white/70 hover:text-rosegold hover:border-rosegold transition-colors"
             >
-              <WhatsApp size={18} />
+              <MessageCircle size={18} />
             </a>
           </div>
         </div>
