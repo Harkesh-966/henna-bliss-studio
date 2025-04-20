@@ -1,15 +1,14 @@
-
 import React, { useState } from 'react';
 
 const galleryItems = [
-  { id: 1, image: 'https://source.unsplash.com/random/600x800/?bridal,henna', category: 'bridal' },
-  { id: 2, image: 'https://source.unsplash.com/random/600x800/?nails,art', category: 'nails' },
-  { id: 3, image: 'https://source.unsplash.com/random/800x600/?party,henna', category: 'party' },
-  { id: 4, image: 'https://source.unsplash.com/random/800x800/?feet,henna', category: 'feet' },
-  { id: 5, image: 'https://source.unsplash.com/random/600x800/?bridal,mehandi', category: 'bridal' },
-  { id: 6, image: 'https://source.unsplash.com/random/600x800/?gel,nails', category: 'nails' },
-  { id: 7, image: 'https://source.unsplash.com/random/600x800/?party,mehandi', category: 'party' },
-  { id: 8, image: 'https://source.unsplash.com/random/600x800/?feet,mehandi', category: 'feet' },
+  { id: 1, image: `https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&auto=format&fit=crop&q=60`, category: 'bridal' },
+  { id: 2, image: `https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop&q=60`, category: 'nails' },
+  { id: 3, image: `https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=60`, category: 'party' },
+  { id: 4, image: `https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&auto=format&fit=crop&q=60`, category: 'feet' },
+  { id: 5, image: `https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&auto=format&fit=crop&q=60`, category: 'bridal' },
+  { id: 6, image: `https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop&q=60`, category: 'nails' },
+  { id: 7, image: `https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=60`, category: 'party' },
+  { id: 8, image: `https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&auto=format&fit=crop&q=60`, category: 'feet' },
 ];
 
 const categories = [
