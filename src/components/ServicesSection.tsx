@@ -5,7 +5,7 @@ const services = [
   {
     id: 1,
     title: 'Bridal Mehandi',
-    description: 'Intricate, traditional designs for the bride's special day featuring detailed patterns and cultural motifs.',
+    description: 'Intricate, traditional designs for the bride\'s special day featuring detailed patterns and cultural motifs.',
     price: 'From $150',
     image: 'https://source.unsplash.com/random/600x800/?bridal,henna'
   },
